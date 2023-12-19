@@ -1,0 +1,388 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color: skyblue;
+  overflow-x: hidden; 
+  width: 100%;
+}
+
+#logo-img {
+  padding: 10px;
+}
+
+.top-left-logo {
+  box-sizing: border-box;
+  border-bottom: 3px solid black;
+  background-color: white;
+  width: 100%;
+}
+
+.survery-header {
+  text-align: left;
+  padding-left: 20px;
+  width: 100%;
+}
+
+
+header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+}
+
+header p {
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#description {
+  width: 100%;
+  margin: 0px;
+}
+
+.header-text {
+  background-color: #6200EA; 
+  color: #fff; 
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 3px solid black;
+  width: 100%;
+  margin: 0 auto; 
+}
+
+header {
+margin-bottom: 20px;
+width: 100%;
+}
+
+
+.personal-information {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f5f5f5; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border: 1.5px outset grey;
+}
+
+.name-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+
+.label-description {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+p.label-description.name-section {
+  margin-bottom: -10px;
+}
+
+.survey-form-labels {
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  
+}
+
+#email.survey-form-labels {
+  width: 25%;
+}
+
+#number.survey-form-labels { 
+  width: 15%;
+}
+
+
+.radio-section {
+  text-align: center;
+  margin: auto;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  border-top: solid 2px rgba(128, 128, 128, 0.4);
+  border-bottom: solid 2px rgba(128, 128, 128, 0.4);
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+.optiuni-radio {
+padding-top: 40px;
+display: flex;
+justify-content: space-around;
+}
+
+
+@media (max-width: 768px) {
+  .personal-information {
+    width: 100%;  
+
+  }
+
+  .survey-form-labels {
+      width: 78%; 
+      
+  }
+
+  header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 0.7fr 0.7fr;
+    grid-template-columns: 1fr;
+  }
+
+  .survery-header {
+    text-align: center;
+  }
+
+  #email.survey-form-labels {
+    width: 30%;
+  }
+  
+  #number.survey-form-labels { 
+    width: 20%;
+  }
+}
+
+
+.dropdown-section {
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+  border-top: solid 2px rgba(128, 128, 128, 0.4);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+
+.dropdown-menu {
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+
+.checkbox-header {
+  font-size: 20px;
+  text-align: center;
+}
+
+.checkbox-section {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  border-bottom: solid 2px rgba(128, 128, 128, 0.4);
+}
+
+.checkbox-options { 
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  text-align: center;
+  font-size: 19px;
+  
+}
+
+
+.satisfacut-ranking {
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+.textarea-section { 
+  padding-top: 50px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+#textarea {
+  width: 500px;
+  height: 200px;
+}
+
+.textarea-header { 
+  font-size: 20px;
+  padding: 0px 40px 30px 40px;
+} 
+
+@media (min-width: 769px) {
+  .personal-information {
+     margin: 0px 30px;  
+  }
+}
+
+.flexbox-container-first-section {
+margin: 20px 20px 20px 20px;
+}
+
+.button-submit {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+flex-wrap: wrap;
+}
+
+#submit {
+width: 30%;
+height: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+background-color: skyblue;
+}
+
+#submit:hover {
+background-color: #6200EA;
+border: 2px solid black;
+color: white;
+}
+
+.satisfacut-1 {
+color: red;
+}
+
+.satisfacut-2 {
+color: orange;
+}
+
+.satisfacut-3 {
+color: gray;
+}
+
+.satisfacut-4 {
+color: green;
+}
+
+.satisfacut-5 {
+color: blue;
+}
+
+.footer-section {
+text-align: center;
+width: 100%;
+color: rgb(104, 102, 102);
+font-weight: 600;
+}
+
+@media only screen and (max-width: 500px) {
+main {
+  margin: 0 20px; 
+  padding: 0px; 
+  box-sizing: border-box; 
+  margin-left: -10px;
+}
+
+#survey-form {
+    max-width: none; 
+}
+}
+
+@media (max-width: 500px) {
+.personal-information {
+    padding: 0; 
+    margin: 0;
+}
+
+.flexbox-container-first-section {
+  margin: 0px;
+}
+
+h3.textarea-header {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.survey-form-labels {
+    width: 100%; 
+    font-size: 14px; 
+}
+
+.textarea-section {
+    padding: 20px;
+}
+
+#textarea {
+    width: 100%; 
+    font-size: 15px; 
+    box-sizing: border-box;
+}
+
+.checkbox-options {
+    grid-template-columns: 1fr; 
+}
+
+.button-submit {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 70%; 
+}
+
+.flexbox-container-first-section,
+.dropdown-section,
+.checkbox-section,
+.textarea-section 
+.button-submit {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+main { 
+  padding: 0px;
+  margin: 0px;
+}
+
+#email.survey-form-labels {
+  width: 70%;
+}
+}
+
+@media (max-width: 768px) {
+
+.header-text {
+    padding: 10px;
+}
+
+.personal-information {
+    margin: 0px;
+}
+
+.optiuni-radio {
+  display: grid;
+  gap: 40px;
+}
+}
+
+
+.grey-writing { 
+color: grey;
+opacity: 60%;
+margin-top: 0px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-section:hover {
+  color: #6200EA;
+}
+
+h3 {
+  font-size: 23px;
+}

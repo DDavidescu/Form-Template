@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freeCodeCamp project 1 better</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <header>
+            <div class="top-left-logo"><img id="logo-img" src="./images/logo-img.png" alt="logo image" width="40"></div>
+            <div class="header-text">
+                <h1 id="title" class="survery-header">Firm Feedback Survey</h1>
+                <p id="description" class="survery-header">Short description</p>
+            </div>
+            
+    </header>
+
+    <main>
+    <section class="personal-information">
+        <form id="survey-form">
+            <div class="flexbox-container-first-section">
+                <div class="name-section">
+                    <p class="label-description name-section">Name</p>
+                     <label id="name-label"><input required id="name" type="text" placeholder="ex: Vincent" class="survey-form-labels"><p class="grey-writing">Enter your first name</p></label>
+                     <label id="last-name-label"><input required id="last-name" type="text" placeholder="ex: Kenny" class="survey-form-labels"><p class="grey-writing">Enter your last name</p></label>
+                </div>
+
+                <div class="email-section">
+                    <p class="label-description">Email</p>
+                    <label id="email-label"><input required id="email" type="email" placeholder="example@example.com" class="survey-form-labels"><p class="grey-writing">Enter your email address</p></label>
+                </div>
+
+                <div class="age-section">
+                    <p class="label-description">Age</p>
+                    <label id="number-label"><input id="number" type="number" placeholder="ex: 27" min="10" max="70" class="survey-form-labels"><p class="grey-writing">Enter your age</p></label>
+                </div>
+            </div>
+            
+            
+            <div class="dropdown-section">  
+                <h3 class="dropdown-header">How did you first learn about our products/services?</h3>
+                <select id="dropdown" class="dropdown-menu">
+                    <option class="optiuni-dropdown">Word of Mouth</option>
+                    <option class="optiuni-dropdown">Online Search</option>
+                    <option class="optiuni-dropdown">Social Media</option>
+                    <option class="optiuni-dropdown">Referral</option>
+                    <option class="optiuni-dropdown">Advertisement</option>
+                    <option class="optiuni-dropdown">Other</option>
+                </select>
+            </div>
+    
+
+            <div class="radio-section">
+                <h3 class="radio-header">Share Your Satisfaction Level</h3>
+                <div class="optiuni-radio">
+                    <div class="optiunea-satisfacut1">
+                        <input type="radio" name="satisfacere" id="satisfacut1" value="1">
+                        <label class="satisfacut-ranking" for="satisfacut1"><span class="satisfacut-1">1</span></label>
+                    </div>
+                    <div class="optiunea-satisfacut2">
+                        <input  type="radio" name="satisfacere" id="satisfacut2" value="2">
+                        <label class="satisfacut-ranking" for="satisfacut2"><span class="satisfacut-2">2</span></label>
+                    </div>
+                    <div class="optiunea-satisfacut3">
+                        <input type="radio" name="satisfacere" id="satisfacut3" value="3">
+                        <label class="satisfacut-ranking" for="satisfacut3"><span class="satisfacut-3">3</span></label>
+                    </div>
+                    <div class="optiunea-satisfacut4">
+                        <input type="radio" name="satisfacere" id="satisfacut4" value="4">
+                        <label class="satisfacut-ranking" for="satisfacut4"><span class="satisfacut-4">4</span></label>
+                    </div>
+                    <div class="optiunea-satisfacut5"> 
+                        <input type="radio" name="satisfacere" id="satisfacut5" value="5">
+                        <label class="satisfacut-ranking" for="satisfacut5"><span class="satisfacut-5">5</span></label>
+                    </div>
+                
+            </div>
+            </div>
+
+            <div class="checkbox-section">
+                <h3 class="checkbox-header">What features or aspects of our products/services do you find most valuable or impactful? (Select up to three)</h3>
+                <div class="checkbox-options">
+                    <label for="user-interface"><input class="checkbox-box" type="checkbox" value="User Interface" id="user-interface">User Interface</label>
+                    <label for="customer-support"><input class="checkbox-box" type="checkbox" value="Customer Support" id="customer-support">Customer Support</label>
+                    <label for="performance"><input class="checkbox-box" type="checkbox" value="Performance" id="performance">Performance</label>
+                    <label for="functionality"><input class="checkbox-box" type="checkbox" value="Functionality" id="functionality">Functionality</label>
+                    <label for="pricing"><input class="checkbox-box" type="checkbox" value="Pricing" id="pricing"> Pricing</label>
+                    <label for="innovation"><input class="checkbox-box" type="checkbox" value="Innovation" id="innovation">Innovation</label>
+                </div>
+            </div>
+
+            <div class="textarea-section">
+                <h3 class="textarea-header">Please share any additional comments, suggestions, or feedback regarding your experience with our products/services. We appreciate your insights and value your input. Feel free to provide as much detail as you'd like to help us better understand your needs and expectations.</h3>
+                <textarea id="textarea" placeholder="Write here..."></textarea>
+            </div>
+
+            <div class="button-submit">
+                <button id="submit">Submit</button>
+            </div>  
+        </form>
+    </section>
+    
+    </main>
+    <footer><a class="footer-link" href="https://github.com/DDavidescu" target="_blank"><p class="footer-section">&copy; Bau David</p></a></footer>
+
+</body>
+
+
+</html>
